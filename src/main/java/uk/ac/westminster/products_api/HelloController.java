@@ -33,6 +33,11 @@ public class HelloController {
         return "Goodbye from Spring Boots!";
     }
 
+    @GetMapping("info")
+    public String info(){
+        return "This web application is demo backend server of OOP tut week 1 ";
+    }
+
     // TODO (Activity 3): add your /goodbye endpoint here.
 
 }
