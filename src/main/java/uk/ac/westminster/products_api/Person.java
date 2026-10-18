@@ -29,13 +29,15 @@ public class Person {
         return name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getEmail(){
+        return this.email;
+    }
+
+
 
     // TODO (Activity 3): add the "email" field and its getter here.
 
